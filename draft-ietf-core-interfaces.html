@@ -9,86 +9,30 @@
 
   
 <style type="text/css">/*<![CDATA[*/
-@viewport {
-  zoom: 1.0;
-  width: extend-to-zoom;
-}
-@-ms-viewport {
-  width: extend-to-zoom;
-  zoom: 1.0;
-}
-
-@media screen and (min-width: 1024px) {
-  body>ul.toc, body>#rfc\.toc {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    right: calc(50vw - 550px);
-    width: 300px;
-    z-index: 1;
-  }
-  #rfc\.toc {
-    top: 55px;
-    overflow: auto;
-    overscroll-behavior: contain;
-  }
-  ul.toc, #rfc\.toc {
-    overflow: auto;
-    overscroll-behavior: contain;
-  }
-  ul.toc li, #rfc\.toc li {
-    font-size: 15px;
-    line-height: 20px;
-    text-indent: 0;
-    padding-left: 1em;
-  }
-  body>ul.toc {
-    top: 140px;
-  }
-
-  body {
-    padding-right: 350px;
-  }
-}
 
 body {
-  font: 16px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font: 16px "Helvetica Neue","Open Sans",Helvetica,Calibri,sans-serif;
   color: #333;
   font-size-adjust: 0.5;
   line-height: 24px;
   margin: 75px auto;
-  max-width: 724px;
+  max-width: 624px;
+  padding: 0 5px;
 }
 
-.title, .filename, h1, h2, h3, h4 {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+.title, .filename, h1, h2, h3, h4, h5 {
+  font: 16px "Roboto Condensed","Helvetica Neue","Open Sans",Helvetica,Calibri,sans-serif;
   font-size-adjust: 0.5;
-  font-weight: 500;
+  font-weight: bold;
   color: #333;
   line-height: 100%;
   margin: 0.8em 0 0.3em;
 }
-.title { font-size: 36px; }
-h1 { font-size: 36px; }
-h2 { font-size: 24px; }
-h3, h4 { font-size: 18px; }
+.title, #rfc\.title h1 { font-size: 32px; }
+h1, section h1, h2, section h2, section h3, nav h2 { font-size: 20px; }
+h3, section h4, h4, section h5 { font-size: 16px; }
 h1 a[href], h2 a[href], h3 a[href], h4 a[href] {
   color: #333;
-}
-
-ul.toc li {
-  list-style: none;
-  text-indent: -2.5em;
-  padding-left: 2.5em;
-  padding-bottom: 5px;
-  margin: 0;
-}
-ul.toc ul {
-  margin: 0;
-}
-/* xml2rfc nests ul directly inside ul which messes with the style badly */
-ul.toc, ul.toc>ul, ul.toc ul>ul {
-  margin: 0 0 0 1.5em;
 }
 
 table {
@@ -117,28 +61,30 @@ td.reference {
 }
 
 
-table.header {
+table.header, table#rfc\.headerblock {
   width: 100%;
 }
-table.header td {
+table.header td, table#rfc\.headerblock td {
   border: none;
   background-color: transparent;
   color: black;
+  padding: 0;
 }
 .filename {
+  display: block;
   color: rgb(119, 119, 119);
-  font-size: 23px;
+  font-size: 20px;
   font-weight: normal;
-  height: auto;
   line-height: 100%;
+  margin: 10px 0 32px;
 }
 #rfc\.abstract+p, #rfc\.abstract p {
-  font-size: 18px;
-  line-height: 27px%;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 samp, tt, code, pre {
-  font: 11pt consolas, monospace;
+  font: 15px Consolas, monospace;
   font-size-adjust: none;
 }
 pre {
@@ -148,13 +94,15 @@ pre {
   padding: 5px;
   margin: 5px;
 }
-.figure {
+.figure, caption {
   font-style: italic;
   margin: 0 1.5em;
+  text-align: left;
 }
 
 address {
-  margin: 10px 0 0;
+  margin: 16px 2px;
+  line-height: 20px;
 }
 .vcard {
   font-style: normal;
@@ -162,8 +110,8 @@ address {
 .vcardline {
   display: block;
 }
-.vcardline .fn {
-  font-weight: bold;
+.vcardline .fn, address b {
+  font-weight: normal;
 }
 .vcardline .hidden {
   display: none;
@@ -228,6 +176,45 @@ address {
   font-style: normal;
 }
 
+ul.toc ul {
+  margin: 0 0 0 2em;
+}
+ul.toc li {
+  list-style: none;
+  margin: 0;
+}
+
+@media screen and (min-width: 924px) {
+  body {
+    padding-right: 350px;
+  }
+  body>ul.toc, body>#rfc\.toc {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    right: calc(50vw - 500px);
+    width: 300px;
+    z-index: 1;
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+  body>#rfc\.toc {
+    top: 55px;
+  }
+  body>ul.toc {
+    top: 100px;
+  }
+
+  ul.toc {
+    margin: 0 0 0 4px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  ul.toc ul {
+    margin-left: 1.2em;
+  }
+}
+
 .github-fork-ribbon-wrapper {
   display: none;
 }
@@ -285,6 +272,7 @@ address {
     position: fixed;
   }
   /*]]>*/</style>
+  <meta name="viewport" content="initial-scale=1.0">
 
 
   <link href="#rfc.toc" rel="Contents">
@@ -331,7 +319,7 @@ address {
 <link href="#rfc.authors" rel="Chapter">
 
 
-  <meta name="generator" content="xml2rfc version 2.9.6 - https://tools.ietf.org/tools/xml2rfc" />
+  <meta name="generator" content="xml2rfc version 2.9.8 - https://tools.ietf.org/tools/xml2rfc" />
   <link rel="schema.dct" href="http://purl.org/dc/terms/" />
 
   <meta name="dct.creator" content="Shelby, Z., Vial, M., Koster, M., Groves, C., Zhu, J., and B. Silverajan, Ed." />
@@ -549,7 +537,7 @@ address {
 <p id="rfc.section.3.1.p.1">A Collection is a resource which represents one or more related resources. <a href="#RFC6573" class="xref">[RFC6573]</a> describes the &#8220;item&#8221; and &#8220;collection&#8221; Link Relation. An &#8220;item&#8221; link relation identifies a member of collection. A &#8220;collection&#8221; indicates the collection that an item is a member of. For example, a collection might be a resource representing a catalog of products, while an item is a resource related to an individual product.</p>
 <p id="rfc.section.3.1.p.2">Section 1.2.2/<a href="#RFC6690" class="xref">[RFC6690]</a> also describes resource collections.</p>
 <p id="rfc.section.3.1.p.3">This document uses the concept of &#8220;collection&#8221; and applies it to interface descriptions. A collection interface description consists of a set of links and a set of items pointed to by the links which may be sub-resources of the collection resource. The collection interface descriptions described in this document are Link List, Batch and Linked Batch.</p>
-<p id="rfc.section.3.1.p.4">The links in a collection are represented in CoRE Link-Format Content-Formats including JSON and CBOR variants, and the items in the collection may be represented by senml, including JSON and CBOR variants. In general, a collection may support items of any available Content-Format.</p>
+<p id="rfc.section.3.1.p.4">The links in a collection are represented in CoRE Link-Format Content-Formats including JSON and CBOR variants, and the items in the collection may be represented by SenML, including JSON and CBOR variants. In general, a collection may support items of any available Content-Format.</p>
 <p id="rfc.section.3.1.p.5">A particular resource item may be a member of more than one collection at a time by being linked to, but may only be a subresource of one collection.</p>
 <p id="rfc.section.3.1.p.6">Some collections may have pre-configured items and links, and some collections may support dynamic creation and removal of items and links. Likewise, modification of items in some collections may be permitted, and not in others.</p>
 <p id="rfc.section.3.1.p.7">Links in collections may be selected for processing by a particular request by using Query Filtering as described in CoRE Link-Format <a href="#RFC6690" class="xref">[RFC6690]</a>.</p>
@@ -576,7 +564,7 @@ address {
 <h1 id="rfc.section.3.4">
 <a href="#rfc.section.3.4">3.4.</a> <a href="#embedding" id="embedding">Link Embedding</a>
 </h1>
-<p id="rfc.section.3.4.p.1">Collections may provide resource encapsulation by supporting link embedding. Link embedding may be used to provide a single resource with which a client may interact to obtain a set of related resource values. This is analogous to an image tag (link) causing the image to display inline in a browser window. Link embedding enables the bulk processing of items in the collection using a single operation targeting the collection resource. Performing a GET on a collection resource may return a single representation containing all of the embedded linked resources. For example, a collection for manufacturer parameters may consist of manufacturer name, date of manufacture, location of manufacture, and serial number resources which can be read as a single senml data object.</p>
+<p id="rfc.section.3.4.p.1">Collections may provide resource encapsulation by supporting link embedding. Link embedding may be used to provide a single resource with which a client may interact to obtain a set of related resource values. This is analogous to an image tag (link) causing the image to display inline in a browser window. Link embedding enables the bulk processing of items in the collection using a single operation targeting the collection resource. Performing a GET on a collection resource may return a single representation containing all of the embedded linked resources. For example, a collection for manufacturer parameters may consist of manufacturer name, date of manufacture, location of manufacture, and serial number resources which can be read as a single SenML data object.</p>
 <p id="rfc.section.3.4.p.2">A subset of resources in the collection may be selected for operation using Query Filtering. Bulk Read operations using GET return a SenML representation of all selected resources. Bulk item Update operations using PUT or POST apply the payload document to all selected resource items in the collection, using either a Batch or Group update policy. A Batch update is performed by applying the resource values in the payload document to all resources in the collection that match any resource name in the payload document. Group updates are performed by applying the payload document to each item in the collection. Group updates are indicated by the link relation type rel=&#8221;grp&#8221; in the link.</p>
 <h1 id="rfc.section.3.5">
 <a href="#rfc.section.3.5">3.5.</a> <a href="#links-items" id="links-items">Links and Items in Collections</a>
@@ -771,11 +759,11 @@ Res: 2.05 Content (application/link-format)
 <pre>
 Req: GET /s/
 Res: 2.05 Content (application/senml+json)
-{"e":[
+[
     { "n": "light", "v": 123, "u": "lx" },
-    { "n": "temp", "v": 27.2, "u": "degC" },
-    { "n": "humidity", "v": 80, "u": "%RH" }],
-}
+    { "n": "temp", "v": 27.2, "u": "Cel" },
+    { "n": "humidity", "v": 80, "u": "%RH" }
+]
 </pre>
 <h1 id="rfc.section.4.3">
 <a href="#rfc.section.4.3">4.3.</a> <a href="#hlinked-batch" id="hlinked-batch">Linked Batch</a>
@@ -789,10 +777,10 @@ Res: 2.04 Changed
 
 Req: GET /l/
 Res: 2.05 Content (application/senml+json)
-{"e":[
+[
    { "n": "/s/light", "v": 123, "u": "lx" },
-   { "n": "/s/temp", "v": 27.2, "u": "degC" },
-}
+   { "n": "/s/temp", "v": 27.2, "u": "Cel" }
+]
 
 Req: POST /l/ (Content-Format: application/link-format)
 &lt;/s/humidity&gt;
@@ -804,11 +792,11 @@ Res: 2.05 Content (application/link-format)
 
 Req: GET /l/
 Res: 2.05 Content (application/senml+json)
-{"e":[
+[
    { "n": "/s/light", "v": 123, "u": "lx" },
-   { "n": "/s/temp", "v": 27.2, "u": "degC" },
-   { "n": "/s/humidity", "v": 80, "u": "%RH" }],
-}
+   { "n": "/s/temp", "v": 27.2, "u": "Cel" },
+   { "n": "/s/humidity", "v": 80, "u": "%RH" },
+]
 
 Req: DELETE /l/
 Res: 2.02 Deleted
@@ -825,9 +813,9 @@ Res: 2.05 Content (text/plain)
 
 Req: GET /s/humidity (Accept: application/senml+json)
 Res: 2.05 Content (application/senml+json)
-{"e":[
-    { "n": "humidity", "v": 80, "u": "%RH" }],
-}
+[
+    { "n": "humidity", "v": 80, "u": "%RH" }
+]
 </pre>
 <h1 id="rfc.section.4.5">
 <a href="#rfc.section.4.5">4.5.</a> <a href="#hparameter" id="hparameter">Parameter</a>
@@ -992,7 +980,7 @@ Res: 2.05 Content (text/plain)
 <h1 id="rfc.section.7">
 <a href="#rfc.section.7">7.</a> <a href="#acknowledgements" id="acknowledgements">Acknowledgements</a>
 </h1>
-<p id="rfc.section.7.p.1">Acknowledgement is given to colleagues from the SENSEI project who were critical in the initial development of the well-known REST interface concept, to members of the IPSO Alliance where further requirements for interface descriptions have been discussed, and to Szymon Sasin, Cedric Chauvenet, Daniel Gavelle and Carsten Bormann who have provided useful discussion and input to the concepts in this document.</p>
+<p id="rfc.section.7.p.1">Acknowledgement is given to colleagues from the SENSEI project who were critical in the initial development of the well-known REST interface concept, to members of the IPSO Alliance where further requirements for interface descriptions have been discussed, and to Szymon Sasin, Cedric Chauvenet, Daniel Gavelle and Carsten Bormann who have provided useful discussion and input to the concepts in this document. Ari Ker&#228;nen provided updated SenML examples.</p>
 <h1 id="rfc.section.8">
 <a href="#rfc.section.8">8.</a> <a href="#changelog" id="changelog">Changelog</a>
 </h1>
@@ -1150,7 +1138,7 @@ Res: 2.05 Content (text/plain)
 <tr>
 <td class="reference"><b id="I-D.ietf-core-dynlink">[I-D.ietf-core-dynlink]</b></td>
 <td class="top">
-<a>Shelby, Z.</a>, <a>Koster, M.</a>, <a>Groves, C.</a>, <a>Zhu, J.</a> and <a>B. Silverajan</a>, "<a href="https://tools.ietf.org/html/draft-ietf-core-dynlink-04">Dynamic Resource Linking for Constrained RESTful Environments</a>", Internet-Draft draft-ietf-core-dynlink-04, September 2017.</td>
+<a>Shelby, Z.</a>, <a>Vial, M.</a>, <a>Koster, M.</a>, <a>Groves, C.</a>, <a>Zhu, J.</a> and <a>B. Silverajan</a>, "<a href="https://tools.ietf.org/html/draft-ietf-core-dynlink-05">Dynamic Resource Linking for Constrained RESTful Environments</a>", Internet-Draft draft-ietf-core-dynlink-05, March 2018.</td>
 </tr>
 <tr>
 <td class="reference"><b id="I-D.ietf-core-resource-directory">[I-D.ietf-core-resource-directory]</b></td>
@@ -1160,7 +1148,7 @@ Res: 2.05 Content (text/plain)
 <tr>
 <td class="reference"><b id="I-D.ietf-core-senml">[I-D.ietf-core-senml]</b></td>
 <td class="top">
-<a>Jennings, C.</a>, <a>Shelby, Z.</a>, <a>Arkko, J.</a>, <a>Keranen, A.</a> and <a>C. Bormann</a>, "<a href="https://tools.ietf.org/html/draft-ietf-core-senml-13">Media Types for Sensor Measurement Lists (SenML)</a>", Internet-Draft draft-ietf-core-senml-13, March 2018.</td>
+<a>Jennings, C.</a>, <a>Shelby, Z.</a>, <a>Arkko, J.</a>, <a>Keranen, A.</a> and <a>C. Bormann</a>, "<a href="https://tools.ietf.org/html/draft-ietf-core-senml-16">Sensor Measurement Lists (SenML)</a>", Internet-Draft draft-ietf-core-senml-16, May 2018.</td>
 </tr>
 <tr>
 <td class="reference"><b id="OIC-Core">[OIC-Core]</b></td>

@@ -249,7 +249,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
 
    The links in a collection are represented in CoRE Link-Format
    Content-Formats including JSON and CBOR variants, and the items in
-   the collection may be represented by senml, including JSON and CBOR
+   the collection may be represented by SenML, including JSON and CBOR
    variants.  In general, a collection may support items of any
    available Content-Format.
 
@@ -329,7 +329,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
    embedded linked resources.  For example, a collection for
    manufacturer parameters may consist of manufacturer name, date of
    manufacture, location of manufacture, and serial number resources
-   which can be read as a single senml data object.
+   which can be read as a single SenML data object.
 
 
 
@@ -623,11 +623,11 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
 
    Req: GET /s/
    Res: 2.05 Content (application/senml+json)
-   {"e":[
+   [
        { "n": "light", "v": 123, "u": "lx" },
-       { "n": "temp", "v": 27.2, "u": "degC" },
-       { "n": "humidity", "v": 80, "u": "%RH" }],
-   }
+       { "n": "temp", "v": 27.2, "u": "Cel" },
+       { "n": "humidity", "v": 80, "u": "%RH" }
+   ]
 
 4.3.  Linked Batch
 
@@ -680,10 +680,10 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
 
    Req: GET /l/
    Res: 2.05 Content (application/senml+json)
-   {"e":[
+   [
       { "n": "/s/light", "v": 123, "u": "lx" },
-      { "n": "/s/temp", "v": 27.2, "u": "degC" },
-   }
+      { "n": "/s/temp", "v": 27.2, "u": "Cel" }
+   ]
 
    Req: POST /l/ (Content-Format: application/link-format)
    </s/humidity>
@@ -695,11 +695,11 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
 
    Req: GET /l/
    Res: 2.05 Content (application/senml+json)
-   {"e":[
+   [
       { "n": "/s/light", "v": 123, "u": "lx" },
-      { "n": "/s/temp", "v": 27.2, "u": "degC" },
-      { "n": "/s/humidity", "v": 80, "u": "%RH" }],
-   }
+      { "n": "/s/temp", "v": 27.2, "u": "Cel" },
+      { "n": "/s/humidity", "v": 80, "u": "%RH" },
+   ]
 
    Req: DELETE /l/
    Res: 2.02 Deleted
@@ -736,9 +736,9 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
 
    Req: GET /s/humidity (Accept: application/senml+json)
    Res: 2.05 Content (application/senml+json)
-   {"e":[
-       { "n": "humidity", "v": 80, "u": "%RH" }],
-   }
+   [
+       { "n": "humidity", "v": 80, "u": "%RH" }
+   ]
 
 4.5.  Parameter
 
@@ -945,7 +945,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
    requirements for interface descriptions have been discussed, and to
    Szymon Sasin, Cedric Chauvenet, Daniel Gavelle and Carsten Bormann
    who have provided useful discussion and input to the concepts in this
-   document.
+   document.  Ari Keraenen provided updated SenML examples.
 
 
 
@@ -1154,10 +1154,10 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
 9.2.  Informative References
 
    [I-D.ietf-core-dynlink]
-              Shelby, Z., Koster, M., Groves, C., Zhu, J., and B.
-              Silverajan, "Dynamic Resource Linking for Constrained
-              RESTful Environments", draft-ietf-core-dynlink-04 (work in
-              progress), September 2017.
+              Shelby, Z., Vial, M., Koster, M., Groves, C., Zhu, J., and
+              B. Silverajan, "Dynamic Resource Linking for Constrained
+              RESTful Environments", draft-ietf-core-dynlink-05 (work in
+              progress), March 2018.
 
    [I-D.ietf-core-resource-directory]
               Shelby, Z., Koster, M., Bormann, C., Stok, P., and C.
@@ -1166,9 +1166,9 @@ Internet-Draft       Interface Definitions for CoRE           March 2018
 
    [I-D.ietf-core-senml]
               Jennings, C., Shelby, Z., Arkko, J., Keranen, A., and C.
-              Bormann, "Media Types for Sensor Measurement Lists
-              (SenML)", draft-ietf-core-senml-13 (work in progress),
-              March 2018.
+              Bormann, "Sensor Measurement Lists (SenML)", draft-ietf-
+              core-senml-16 (work in progress), May 2018.
+
 
 
 
