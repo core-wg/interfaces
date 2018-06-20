@@ -551,7 +551,7 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    </a/1/led>;rt="simple.act.led";if="core.a",
    </a/2/led>;rt="simple.act.led";if="core.a",
    </d/>;rt="simple.dev";if="core.ll",
-   </l/>;if="core.lb",
+   </l/>;if="core.lb"
 
                     Figure 1: Binding Interface Example
 
@@ -698,7 +698,7 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    [
       { "n": "/s/light", "v": 123, "u": "lx" },
       { "n": "/s/temp", "v": 27.2, "u": "Cel" },
-      { "n": "/s/humidity", "v": 80, "u": "%RH" },
+      { "n": "/s/humidity", "v": 80, "u": "%RH" }
    ]
 
    Req: DELETE /l/
