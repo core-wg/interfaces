@@ -5,14 +5,14 @@
 CoRE Working Group                                             Z. Shelby
 Internet-Draft                                                       ARM
 Intended status: Informational                                 M. Koster
-Expires: December 28, 2018                                   SmartThings
+Expires: April 25, 2019                                      SmartThings
                                                                C. Groves
 
                                                                   J. Zhu
                                                                   Huawei
                                                       B. Silverajan, Ed.
                                         Tampere University of Technology
-                                                           June 26, 2018
+                                                        October 22, 2018
 
 
   Reusable Interface Definitions for Constrained RESTful Environments
@@ -53,9 +53,9 @@ Status of This Memo
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 1]
+Shelby, et al.           Expires April 25, 2019                 [Page 1]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    Internet-Drafts are draft documents valid for a maximum of six months
@@ -63,7 +63,7 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on December 28, 2018.
+   This Internet-Draft will expire on April 25, 2019.
 
 Copyright Notice
 
@@ -109,25 +109,25 @@ Table of Contents
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 2]
+Shelby, et al.           Expires April 25, 2019                 [Page 2]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
      6.4.  Sensor  . . . . . . . . . . . . . . . . . . . . . . . . .  16
-     6.5.  Parameter . . . . . . . . . . . . . . . . . . . . . . . .  16
+     6.5.  Parameter . . . . . . . . . . . . . . . . . . . . . . . .  17
      6.6.  Read-only parameter . . . . . . . . . . . . . . . . . . .  17
      6.7.  Actuator  . . . . . . . . . . . . . . . . . . . . . . . .  17
    7.  Acknowledgements  . . . . . . . . . . . . . . . . . . . . . .  17
    8.  Contributors  . . . . . . . . . . . . . . . . . . . . . . . .  18
    9.  Changelog . . . . . . . . . . . . . . . . . . . . . . . . . .  18
-   10. References  . . . . . . . . . . . . . . . . . . . . . . . . .  21
-     10.1.  Normative References . . . . . . . . . . . . . . . . . .  21
+   10. References  . . . . . . . . . . . . . . . . . . . . . . . . .  22
+     10.1.  Normative References . . . . . . . . . . . . . . . . . .  22
      10.2.  Informative References . . . . . . . . . . . . . . . . .  22
    Appendix A.  Current Usage of Interfaces  . . . . . . . . . . . .  23
      A.1.  Constrained RESTful Environments (CoRE) Link Format
            (IETF)  . . . . . . . . . . . . . . . . . . . . . . . . .  23
-     A.2.  Open Connectivity Foundation (OCF)  . . . . . . . . . . .  23
+     A.2.  Open Connectivity Foundation (OCF)  . . . . . . . . . . .  24
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .  24
 
 1.  Introduction
@@ -137,9 +137,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    information standards that may be used to represent machine data and
    machine metadata in REST interfaces.  CoRE Link-format is a standard
    for doing Web Linking [RFC8288] in constrained environments.  SenML
-   [I-D.ietf-core-senml] is a simple data model and representation
-   format for composite and complex structured resources.  CoRE Link-
-   Format and SenML can be used by CoAP [RFC7252] or HTTP servers.
+   [RFC8428] is a simple data model and representation format for
+   composite and complex structured resources.  CoRE Link-Format and
+   SenML can be used by CoAP [RFC7252] or HTTP servers.
 
    The discovery of resources offered by a constrained server is very
    important in machine-to-machine applications where there are no
@@ -165,9 +165,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 3]
+Shelby, et al.           Expires April 25, 2019                 [Page 3]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    An interface description describes a resource in terms of its
@@ -221,9 +221,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 4]
+Shelby, et al.           Expires April 25, 2019                 [Page 4]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 3.1.  Introduction to Collections
@@ -277,9 +277,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 5]
+Shelby, et al.           Expires April 25, 2019                 [Page 5]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    A collection may be used to group a set of like resources for bulk
@@ -333,9 +333,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 6]
+Shelby, et al.           Expires April 25, 2019                 [Page 6]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    Links:  application/link-format, application/link-format+json
@@ -389,9 +389,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 7]
+Shelby, et al.           Expires April 25, 2019                 [Page 7]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    <temp>;rt="temperature":  Link to the temp subresource of the
@@ -445,9 +445,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 8]
+Shelby, et al.           Expires April 25, 2019                 [Page 8]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 4.  Interface Descriptions
@@ -501,9 +501,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018               [Page 9]
+Shelby, et al.           Expires April 25, 2019                 [Page 9]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
      +--------------+---------+-----------------+--------------------+
@@ -557,9 +557,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018              [Page 10]
+Shelby, et al.           Expires April 25, 2019                [Page 10]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 4.1.  Link List
@@ -581,7 +581,7 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    typically used with a parent resource to enumerate sub-resources but
    may be used to reference any resource on an origin server.
 
-   The following example interacts with a Link List /d containing
+   The following example interacts with a Link List /d/ containing
    Parameter sub-resources /d/name, /d/model.
 
    Req: GET /d/ (Accept:application/link-format)
@@ -613,14 +613,15 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-Shelby, et al.          Expires December 28, 2018              [Page 11]
+Shelby, et al.           Expires April 25, 2019                [Page 11]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    Req: GET /s/
    Res: 2.05 Content (application/senml+json)
    [
+       { "bn": "example.com/s/" },
        { "n": "light", "v": 123, "u": "lx" },
        { "n": "temp", "v": 27.2, "u": "Cel" },
        { "n": "humidity", "v": 80, "u": "%RH" }
@@ -668,10 +669,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-
-Shelby, et al.          Expires December 28, 2018              [Page 12]
+Shelby, et al.           Expires April 25, 2019                [Page 12]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    Req: POST /l/ (Content-Format: application/link-format)
@@ -681,6 +681,7 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    Req: GET /l/
    Res: 2.05 Content (application/senml+json)
    [
+      { "bn": "example.com/" },
       { "n": "/s/light", "v": 123, "u": "lx" },
       { "n": "/s/temp", "v": 27.2, "u": "Cel" }
    ]
@@ -696,6 +697,7 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    Req: GET /l/
    Res: 2.05 Content (application/senml+json)
    [
+      { "bn": "example.com/" },
       { "n": "/s/light", "v": 123, "u": "lx" },
       { "n": "/s/temp", "v": 27.2, "u": "Cel" },
       { "n": "/s/humidity", "v": 80, "u": "%RH" }
@@ -723,11 +725,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 13]
+Shelby, et al.           Expires April 25, 2019                [Page 13]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    Req: GET /s/humidity (Accept: text/plain)
@@ -737,6 +737,7 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    Req: GET /s/humidity (Accept: application/senml+json)
    Res: 2.05 Content (application/senml+json)
    [
+       { "bn": "example.com/s/" },
        { "n": "humidity", "v": 80, "u": "%RH" }
    ]
 
@@ -777,15 +778,15 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    environment).  Examples of actuators include for example LEDs,
    relays, motor controllers and light dimmers.  The current value of
    the actuator can be read (GET) or the actuator value can be updated
-   (PUT).  In addition, this interface allows the use of POST to change
 
 
 
-Shelby, et al.          Expires December 28, 2018              [Page 14]
+Shelby, et al.           Expires April 25, 2019                [Page 14]
 
-Internet-Draft       Interface Definitions for CoRE            June 2018
+Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
+   (PUT).  In addition, this interface allows the use of POST to change
    the state of an actuator, for example to toggle between its possible
    values.  Plain text or SenML Media types MAY be returned from this
    type of interface.  A resource with this interface MAY use SenML to
@@ -819,7 +820,9 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    representations and response codes either by accident or maliciously.
    A server sending maliciously malformed responses could attempt to
    take advantage of a poorly implemented client for example to crash
-   the node or perform denial of service.
+   the node or perform denial of service.  Conversely, a malicious
+   client could attempt to write to arbitrary resources on a poorly
+   implemented server described in a linked batch.
 
 6.  IANA Considerations
 
@@ -830,17 +833,17 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
    Attribute Value:  core.ll
 
+
+
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 15]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
    Description:  The Link List interface is used to retrieve a list of
       resources on an origin server.
-
-
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 15]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
 
    Reference:  This document.  Note to RFC Editor - please insert the
       appropriate RFC reference.
@@ -885,18 +888,19 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
    Notes:  None
 
+
+
+
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 16]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
 6.5.  Parameter
 
    Attribute Value: core.p
-
-
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 16]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
 
    Description:  The Parameter interface allows configurable parameters
       and other information to be modeled as a resource.  The value of
@@ -942,17 +946,19 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    Acknowledgement is given to colleagues from the SENSEI project who
    were critical in the initial development of the well-known REST
    interface concept, to members of the IPSO Alliance where further
+
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 17]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
    requirements for interface descriptions have been discussed, and to
    Szymon Sasin, Cedric Chauvenet, Daniel Gavelle and Carsten Bormann
    who have provided useful discussion and input to the concepts in this
-   document.  Ari Keraenen provided updated SenML examples.
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 17]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
+   document.  Ari Keraenen provided updated SenML examples.  Christian
+   Amsuss supplied a comprehensive review of draft -12.
 
 8.  Contributors
 
@@ -965,6 +971,12 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    EMail: matthieu.vial@schneider-electric.com
 
 9.  Changelog
+
+   Changes from -12 to -13:
+
+   o  SenML examples now use the Base Name (bn) labels from RFC 8428
+
+   o  Security considerations discusses client misuse of linked batches
 
    Changes from -11 to -12:
 
@@ -990,6 +1002,14 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
    o  Section 1: Amendments to remove discussing properties.  *
 
+
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 18]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
    o  New author and editor added.
 
    Changes from -08 to -09:
@@ -1002,13 +1022,6 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    Changes from -07 to -08:
 
    o  Section 3.3: Modified Accepts to Accept header option.
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 18]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
 
    o  Addressed the editor's note in Section 4.1 to clarify the use of
       the Accept option.
@@ -1044,6 +1057,15 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
    o  Section 8: Updated IANA considerations.
 
+
+
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 19]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
    o  Added Appendix A to discuss current state of the art wrt to
       collections, function sets etc.
 
@@ -1058,13 +1080,6 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    o  The WADL description has been removed.
 
    o  Fixed minor typos.
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 19]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
 
    o  Updated references.
 
@@ -1100,6 +1115,13 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
    o  Removed query parameters from Observe definition.
 
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 20]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
    o  Added observe-cancel definition to WADL and to observable
       interfaces.
 
@@ -1114,13 +1136,6 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
    o  Improvements to the Function Set section.
 
    Changes from -05 to WG Document -00
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 20]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
 
    o  Updated the date and version.
 
@@ -1152,6 +1167,17 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
    o  Added a simple profile example.
 
+
+
+
+
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 21]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
 10.  References
 
 10.1.  Normative References
@@ -1169,32 +1195,18 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
               DOI 10.17487/RFC8288, October 2017,
               <https://www.rfc-editor.org/info/rfc8288>.
 
-
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 21]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
-
 10.2.  Informative References
 
    [I-D.ietf-core-dynlink]
-              Shelby, Z., Vial, M., Koster, M., Groves, C., Zhu, J., and
-              B. Silverajan, "Dynamic Resource Linking for Constrained
-              RESTful Environments", draft-ietf-core-dynlink-05 (work in
-              progress), March 2018.
+              Shelby, Z., Koster, M., Groves, C., Zhu, J., and B.
+              Silverajan, "Dynamic Resource Linking for Constrained
+              RESTful Environments", draft-ietf-core-dynlink-07 (work in
+              progress), October 2018.
 
    [I-D.ietf-core-resource-directory]
               Shelby, Z., Koster, M., Bormann, C., Stok, P., and C.
               Amsuess, "CoRE Resource Directory", draft-ietf-core-
-              resource-directory-13 (work in progress), March 2018.
-
-   [I-D.ietf-core-senml]
-              Jennings, C., Shelby, Z., Arkko, J., Keranen, A., and C.
-              Bormann, "Sensor Measurement Lists (SenML)", draft-ietf-
-              core-senml-16 (work in progress), May 2018.
+              resource-directory-15 (work in progress), October 2018.
 
    [OIC-Core]
               "OIC Resource Type Specification v1.1.0", 2016,
@@ -1214,6 +1226,14 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
               "TS 0008 v1.3.2 CoAP Protocol Binding", 2016,
               <http://www.onem2m.org/technical/published-documents>.
 
+
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 22]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
    [oneM2MTS0023]
               "TS 0023 v2.0.0 Home Appliances Information Model and
               Mapping", 2016,
@@ -1223,16 +1243,6 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
               Resource Identifier (URI): Generic Syntax", STD 66,
               RFC 3986, DOI 10.17487/RFC3986, January 2005,
               <https://www.rfc-editor.org/info/rfc3986>.
-
-
-
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 22]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
 
    [RFC6573]  Amundsen, M., "The Item and Collection Link Relations",
               RFC 6573, DOI 10.17487/RFC6573, April 2012,
@@ -1252,6 +1262,11 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
               DOI 10.17487/RFC7396, October 2014,
               <https://www.rfc-editor.org/info/rfc7396>.
 
+   [RFC8428]  Jennings, C., Shelby, Z., Arkko, J., Keranen, A., and C.
+              Bormann, "Sensor Measurement Lists (SenML)", RFC 8428,
+              DOI 10.17487/RFC8428, August 2018,
+              <https://www.rfc-editor.org/info/rfc8428>.
+
 Appendix A.  Current Usage of Interfaces
 
    Editor's note: This appendix will be removed.  It is only included
@@ -1268,6 +1283,13 @@ A.1.  Constrained RESTful Environments (CoRE) Link Format (IETF)
    Resource Types to make discovery meaningful.  It highlights that
    collections are often used for these interfaces.
 
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 23]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
    Whilst 3.2/[RFC6690] defines a new Interface Description 'if'
    attribute the procedures around it are about the naming of the
    interface not what information should be included in the
@@ -1282,13 +1304,6 @@ A.2.  Open Connectivity Foundation (OCF)
    parameters.xhtml#if-link-target-att-value).  These interface
    descriptors are similar to those defined in this specification.  From
    a high level perspective:
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 23]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
-
 
    links list:   OCF (oic.if.ll) -> IETF (core.ll)
                  Note: it's called "link list" in the IETF.
@@ -1321,6 +1336,16 @@ Authors' Addresses
    Email: zach.shelby@arm.com
 
 
+
+
+
+
+
+Shelby, et al.           Expires April 25, 2019                [Page 24]
+
+Internet-Draft       Interface Definitions for CoRE         October 2018
+
+
    Michael Koster
    SmartThings
    665 Clyde Avenue
@@ -1334,16 +1359,6 @@ Authors' Addresses
    Australia
 
    Email: cngroves.std@gmail.com
-
-
-
-
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 24]
-
-Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
    Jintao Zhu
@@ -1382,19 +1397,4 @@ Internet-Draft       Interface Definitions for CoRE            June 2018
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Shelby, et al.          Expires December 28, 2018              [Page 25]
+Shelby, et al.           Expires April 25, 2019                [Page 25]
