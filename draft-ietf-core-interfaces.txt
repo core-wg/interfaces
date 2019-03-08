@@ -5,14 +5,14 @@
 CoRE Working Group                                             Z. Shelby
 Internet-Draft                                                       ARM
 Intended status: Informational                                 M. Koster
-Expires: April 25, 2019                                      SmartThings
+Expires: September 9, 2019                                   SmartThings
                                                                C. Groves
 
                                                                   J. Zhu
                                                                   Huawei
                                                       B. Silverajan, Ed.
-                                        Tampere University of Technology
-                                                        October 22, 2018
+                                                      Tampere University
+                                                          March 08, 2019
 
 
   Reusable Interface Definitions for Constrained RESTful Environments
@@ -53,9 +53,9 @@ Status of This Memo
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 1]
+Shelby, et al.          Expires September 9, 2019               [Page 1]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    Internet-Drafts are draft documents valid for a maximum of six months
@@ -63,11 +63,11 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on April 25, 2019.
+   This Internet-Draft will expire on September 9, 2019.
 
 Copyright Notice
 
-   Copyright (c) 2018 IETF Trust and the persons identified as the
+   Copyright (c) 2019 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 2]
+Shelby, et al.          Expires September 9, 2019               [Page 2]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
      6.4.  Sensor  . . . . . . . . . . . . . . . . . . . . . . . . .  16
@@ -165,9 +165,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 3]
+Shelby, et al.          Expires September 9, 2019               [Page 3]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    An interface description describes a resource in terms of its
@@ -221,9 +221,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 4]
+Shelby, et al.          Expires September 9, 2019               [Page 4]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 3.1.  Introduction to Collections
@@ -277,9 +277,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 5]
+Shelby, et al.          Expires September 9, 2019               [Page 5]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    A collection may be used to group a set of like resources for bulk
@@ -333,9 +333,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 6]
+Shelby, et al.          Expires September 9, 2019               [Page 6]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    Links:  application/link-format, application/link-format+json
@@ -389,9 +389,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 7]
+Shelby, et al.          Expires September 9, 2019               [Page 7]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    <temp>;rt="temperature":  Link to the temp subresource of the
@@ -445,9 +445,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 8]
+Shelby, et al.          Expires September 9, 2019               [Page 8]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 4.  Interface Descriptions
@@ -501,9 +501,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                 [Page 9]
+Shelby, et al.          Expires September 9, 2019               [Page 9]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
      +--------------+---------+-----------------+--------------------+
@@ -557,9 +557,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 10]
+Shelby, et al.          Expires September 9, 2019              [Page 10]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 4.1.  Link List
@@ -613,9 +613,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 11]
+Shelby, et al.          Expires September 9, 2019              [Page 11]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    Req: GET /s/
@@ -669,9 +669,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 12]
+Shelby, et al.          Expires September 9, 2019              [Page 12]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    Req: POST /l/ (Content-Format: application/link-format)
@@ -725,9 +725,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 13]
+Shelby, et al.          Expires September 9, 2019              [Page 13]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    Req: GET /s/humidity (Accept: text/plain)
@@ -781,9 +781,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 14]
+Shelby, et al.          Expires September 9, 2019              [Page 14]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    (PUT).  In addition, this interface allows the use of POST to change
@@ -837,9 +837,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 15]
+Shelby, et al.          Expires September 9, 2019              [Page 15]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    Description:  The Link List interface is used to retrieve a list of
@@ -893,9 +893,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 16]
+Shelby, et al.          Expires September 9, 2019              [Page 16]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 6.5.  Parameter
@@ -949,9 +949,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 17]
+Shelby, et al.          Expires September 9, 2019              [Page 17]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    requirements for interface descriptions have been discussed, and to
@@ -1005,9 +1005,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 18]
+Shelby, et al.          Expires September 9, 2019              [Page 18]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    o  New author and editor added.
@@ -1061,9 +1061,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 19]
+Shelby, et al.          Expires September 9, 2019              [Page 19]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    o  Added Appendix A to discuss current state of the art wrt to
@@ -1117,9 +1117,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 20]
+Shelby, et al.          Expires September 9, 2019              [Page 20]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    o  Added observe-cancel definition to WADL and to observable
@@ -1173,9 +1173,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 21]
+Shelby, et al.          Expires September 9, 2019              [Page 21]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 10.  References
@@ -1200,13 +1200,13 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
    [I-D.ietf-core-dynlink]
               Shelby, Z., Koster, M., Groves, C., Zhu, J., and B.
               Silverajan, "Dynamic Resource Linking for Constrained
-              RESTful Environments", draft-ietf-core-dynlink-07 (work in
-              progress), October 2018.
+              RESTful Environments", draft-ietf-core-dynlink-08 (work in
+              progress), March 2019.
 
    [I-D.ietf-core-resource-directory]
               Shelby, Z., Koster, M., Bormann, C., Stok, P., and C.
               Amsuess, "CoRE Resource Directory", draft-ietf-core-
-              resource-directory-15 (work in progress), October 2018.
+              resource-directory-19 (work in progress), January 2019.
 
    [OIC-Core]
               "OIC Resource Type Specification v1.1.0", 2016,
@@ -1229,9 +1229,9 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 22]
+Shelby, et al.          Expires September 9, 2019              [Page 22]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    [oneM2MTS0023]
@@ -1285,9 +1285,9 @@ A.1.  Constrained RESTful Environments (CoRE) Link Format (IETF)
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 23]
+Shelby, et al.          Expires September 9, 2019              [Page 23]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    Whilst 3.2/[RFC6690] defines a new Interface Description 'if'
@@ -1341,9 +1341,9 @@ Authors' Addresses
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 24]
+Shelby, et al.          Expires September 9, 2019              [Page 24]
 
-Internet-Draft       Interface Definitions for CoRE         October 2018
+Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
    Michael Koster
@@ -1371,12 +1371,12 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
    Bilhanan Silverajan (editor)
-   Tampere University of Technology
-   Korkeakoulunkatu 10
-   Tampere  FI-33720
+   Tampere University
+   Kalevantie 4
+   Tampere  FI-33100
    Finland
 
-   Email: bilhanan.silverajan@tut.fi
+   Email: bilhanan.silverajan@tuni.fi
 
 
 
@@ -1397,4 +1397,4 @@ Internet-Draft       Interface Definitions for CoRE         October 2018
 
 
 
-Shelby, et al.           Expires April 25, 2019                [Page 25]
+Shelby, et al.          Expires September 9, 2019              [Page 25]
