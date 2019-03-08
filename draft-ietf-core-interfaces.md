@@ -2,7 +2,7 @@
 title: "Reusable Interface Definitions for Constrained RESTful Environments"
 abbrev: Interface Definitions for CoRE
 docname: draft-ietf-core-interfaces-latest
-date: 2018-10-22
+date: 2019-03-08
 category: info
 
 ipr: trust200902
@@ -55,12 +55,12 @@ author:
 - role: editor
   ins: B. Silverajan
   name: Bilhanan Silverajan
-  org: Tampere University of Technology
-  street: Korkeakoulunkatu 10
+  org: Tampere University
+  street: Kalevantie 4
   city: Tampere
-  code: 'FI-33720'
+  code: 'FI-33100'
   country: Finland
-  email: bilhanan.silverajan@tut.fi
+  email: bilhanan.silverajan@tuni.fi
 
 normative:
   RFC2119:
