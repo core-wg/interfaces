@@ -5,14 +5,14 @@
 CoRE Working Group                                             Z. Shelby
 Internet-Draft                                                       ARM
 Intended status: Informational                                 M. Koster
-Expires: September 9, 2019                                   SmartThings
+Expires: September 12, 2019                                  SmartThings
                                                                C. Groves
 
                                                                   J. Zhu
                                                                   Huawei
                                                       B. Silverajan, Ed.
                                                       Tampere University
-                                                          March 08, 2019
+                                                          March 11, 2019
 
 
   Reusable Interface Definitions for Constrained RESTful Environments
@@ -53,7 +53,7 @@ Status of This Memo
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 1]
+Shelby, et al.         Expires September 12, 2019               [Page 1]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -63,7 +63,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on September 9, 2019.
+   This Internet-Draft will expire on September 12, 2019.
 
 Copyright Notice
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 2]
+Shelby, et al.         Expires September 12, 2019               [Page 2]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -165,7 +165,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 3]
+Shelby, et al.         Expires September 12, 2019               [Page 3]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -221,7 +221,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 4]
+Shelby, et al.         Expires September 12, 2019               [Page 4]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -277,7 +277,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 5]
+Shelby, et al.         Expires September 12, 2019               [Page 5]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -333,7 +333,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 6]
+Shelby, et al.         Expires September 12, 2019               [Page 6]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -389,7 +389,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 7]
+Shelby, et al.         Expires September 12, 2019               [Page 7]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -445,7 +445,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 8]
+Shelby, et al.         Expires September 12, 2019               [Page 8]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -501,7 +501,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019               [Page 9]
+Shelby, et al.         Expires September 12, 2019               [Page 9]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -557,7 +557,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 10]
+Shelby, et al.         Expires September 12, 2019              [Page 10]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -613,7 +613,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 11]
+Shelby, et al.         Expires September 12, 2019              [Page 11]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -669,7 +669,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 12]
+Shelby, et al.         Expires September 12, 2019              [Page 12]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -725,7 +725,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 13]
+Shelby, et al.         Expires September 12, 2019              [Page 13]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -781,7 +781,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 14]
+Shelby, et al.         Expires September 12, 2019              [Page 14]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -837,7 +837,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 15]
+Shelby, et al.         Expires September 12, 2019              [Page 15]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -893,7 +893,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 16]
+Shelby, et al.         Expires September 12, 2019              [Page 16]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -949,7 +949,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 17]
+Shelby, et al.         Expires September 12, 2019              [Page 17]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -971,6 +971,10 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
    EMail: matthieu.vial@schneider-electric.com
 
 9.  Changelog
+
+   Changes from -13 to -14:
+
+   o  Version update, with changes in editor's contact information
 
    Changes from -12 to -13:
 
@@ -998,17 +1002,17 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
    o  Removed discussion of function sets
 
-   Changes from -09 to -10:
-
-   o  Section 1: Amendments to remove discussing properties.  *
 
 
 
-
-Shelby, et al.          Expires September 9, 2019              [Page 18]
+Shelby, et al.         Expires September 12, 2019              [Page 18]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
+
+   Changes from -09 to -10:
+
+   o  Section 1: Amendments to remove discussing properties.  *
 
    o  New author and editor added.
 
@@ -1055,16 +1059,14 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
    o  Removed section on future interfaces.
 
-   o  Section 8: Updated IANA considerations.
 
 
-
-
-
-Shelby, et al.          Expires September 9, 2019              [Page 19]
+Shelby, et al.         Expires September 12, 2019              [Page 19]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
+
+   o  Section 8: Updated IANA considerations.
 
    o  Added Appendix A to discuss current state of the art wrt to
       collections, function sets etc.
@@ -1113,14 +1115,14 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
    o  Added getattr and setattr to observable interfaces.
 
-   o  Removed query parameters from Observe definition.
 
 
-
-Shelby, et al.          Expires September 9, 2019              [Page 20]
+Shelby, et al.         Expires September 12, 2019              [Page 20]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
+
+   o  Removed query parameters from Observe definition.
 
    o  Added observe-cancel definition to WADL and to observable
       interfaces.
@@ -1171,9 +1173,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-
-
-Shelby, et al.          Expires September 9, 2019              [Page 21]
+Shelby, et al.         Expires September 12, 2019              [Page 21]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -1229,7 +1229,7 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 22]
+Shelby, et al.         Expires September 12, 2019              [Page 22]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -1285,7 +1285,7 @@ A.1.  Constrained RESTful Environments (CoRE) Link Format (IETF)
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 23]
+Shelby, et al.         Expires September 12, 2019              [Page 23]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -1341,7 +1341,7 @@ Authors' Addresses
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 24]
+Shelby, et al.         Expires September 12, 2019              [Page 24]
 
 Internet-Draft       Interface Definitions for CoRE           March 2019
 
@@ -1397,4 +1397,4 @@ Internet-Draft       Interface Definitions for CoRE           March 2019
 
 
 
-Shelby, et al.          Expires September 9, 2019              [Page 25]
+Shelby, et al.         Expires September 12, 2019              [Page 25]
